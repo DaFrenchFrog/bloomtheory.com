@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-	<title>Bloom Theory</title>
+	<title>Bloom Theory design</title>
 </svelte:head>
 <BabyBackground />
 <!-- <div class="content" transition:fly={{duration:1000}}> -->
