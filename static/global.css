@@ -1,0 +1,176 @@
+html {
+      font-size: 30px;
+      font-weight: 400;
+}
+@font-face {
+      font-family: "SilkSerif-Regular";
+      /* src: url('assets/fonts/SilkSerif-Regular.eot'); */
+      src: url("assets/fonts/SilkSerif-Regular.ttf") format("truetype");
+      /* font-weight: normal; */
+      /* font-style: normal; */
+      font-weight: 400;
+}
+body {
+      font-family: "Raleway", Helvetica, Arial, sans-serif;
+      padding: 0;
+      margin: 0;
+      transition: background-color 1s;
+      overflow-x: hidden;
+      width: 100%;
+      transition: all 0.5s;
+}
+h1 {
+      font-size: 3rem;
+      font-family: "SilkSerif-Regular", serif;
+      line-height: 1;
+      font-weight: 400;
+}
+h2 {
+      font-size: 2.3rem;
+      font-family: "SilkSerif-Regular", serif;
+      font-weight: 400;
+      line-height: 1.1;
+      margin-bottom: 100px;
+}
+h3 {
+      font-size: 1.7rem;
+      line-height: 1.1;
+      font-family: "SilkSerif-Regular", serif;
+      font-weight: 400;
+}
+h4 {
+      font-size: 1.4rem;
+      line-height: 1.1;
+      font-family: "SilkSerif-Regular", serif;
+      font-weight: 400;
+}
+h6 {
+      font-size: 0.8rem;
+      font-family: "Raleway", Helvetica, Arial, sans-serif;
+      font-weight: 300;
+}
+p {
+      line-height: 1.4;
+}
+p a {
+      color: salmon;
+}
+strong {
+      font-style: italic;
+}
+p a:hover {
+      opacity: 1;
+}
+a {
+      color: inherit;
+      text-decoration: none;
+}
+/* img {
+      width: 100%;
+      height: 100%;
+} */
+section {
+      margin: 300px auto;
+}
+article {
+      max-width: 1440px;
+}
+figure {
+      margin: 0;
+}
+.frontcolor {
+      color: salmon; /*#FA8072*/
+}
+.backcolor {
+      background-color: salmon;
+}
+.rubrique_title {
+      font-size: 12rem;
+      position: absolute;
+      font-family: "SilkSerif-Regular", serif;
+      left:-10vw;
+      line-height: 8rem;
+      opacity: 0.3;
+
+}
+@media (max-width: 1281px) {
+      html {
+            font-size: 20px;
+      }
+}
+@media (max-width: 400px) {
+      html {
+            font-size: 16px;
+      }
+      h1 {
+            font-size: 2.5rem;
+      }
+      h2 {
+            font-size: 2rem;
+      }
+      p {
+            line-height: 1.5;
+            font-size: 1.2;
+      }
+      section {
+            margin: 150px auto;
+      }
+}
+/* SPINNER LOADING */
+.lds-ellipsis {
+  display: inline-block;
+  position: absolute;
+  top:50vh;
+  left:50vw;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: salmon;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
