@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-	<title>Romain Glé</title>
+	<title>Bloom Theory</title>
 </svelte:head>
 <BabyBackground />
 <!-- <div class="content" transition:fly={{duration:1000}}> -->
