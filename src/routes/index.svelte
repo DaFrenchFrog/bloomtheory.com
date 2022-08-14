@@ -52,8 +52,8 @@
 <div class="content" class:showing>
 	<div class="intro">
 		<h1>
-			<p>Bonjour, je m&#39;appelle Romain Gl&eacute;.</p>
-			J'aide les entreprises et organisations dans le succ&egrave;s de leurs
+			<p>Bonjour,</p>
+			Nous aidons les entreprises et organisations dans le succ&egrave;s de leurs
 			<span class="frontcolor">produits,</span>
 			leurs
 			<span class="frontcolor">marques,</span>
